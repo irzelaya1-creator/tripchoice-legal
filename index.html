@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Legal &amp; Transparency — TripChoice</title>
+  <style>
+    :root {
+      --bg: #F8F6F2;
+      --surface: #FFFFFF;
+      --recessed: #EFECE6;
+      --border: #E4DFD7;
+      --ink: #1C1B19;
+      --muted: #757067;
+      --accent: #C86D51;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1C1B19;
+        --surface: #262421;
+        --recessed: #2F2C28;
+        --border: #38342E;
+        --ink: #F8F6F2;
+        --muted: #A8A196;
+        --accent: #C86D51;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Plus Jakarta Sans", "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 64px 20px;
+    }
+    h1 {
+      font-family: Georgia, "Playfair Display", serif;
+      font-size: 2rem;
+      margin: 0 0 8px;
+    }
+    p { color: var(--muted); margin: 0 0 28px; }
+    .links { display: grid; gap: 14px; }
+    a.card {
+      display: block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px 22px;
+      text-decoration: none;
+      color: var(--ink);
+    }
+    a.card strong {
+      display: block;
+      font-size: 1.05rem;
+      margin-bottom: 4px;
+      color: var(--accent);
+    }
+    a.card span {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>TripChoice Legal &amp; Transparency</h1>
+    <p>Official legal documentation for the TripChoice mobile application.</p>
+    <div class="links">
+      <a class="card" href="./privacy.html">
+        <strong>Privacy Policy &rarr;</strong>
+        <span>How TripChoice collects, stores, and protects traveler data.</span>
+      </a>
+      <a class="card" href="./terms.html">
+        <strong>Terms of Service &rarr;</strong>
+        <span>Conditions of use, transit disclaimers, and third-party handoffs.</span>
+      </a>
+    </div>
+  </main>
+</body>
+</html>

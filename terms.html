@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Terms of Service — TripChoice</title>
+  <style>
+    :root {
+      --bg: #F8F6F2;
+      --surface: #FFFFFF;
+      --recessed: #EFECE6;
+      --border: #E4DFD7;
+      --ink: #1C1B19;
+      --muted: #757067;
+      --accent: #C86D51;
+      --accent-soft: rgba(200, 109, 81, 0.14);
+      --accent-border: rgba(200, 109, 81, 0.38);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1C1B19;
+        --surface: #262421;
+        --recessed: #2F2C28;
+        --border: #38342E;
+        --ink: #F8F6F2;
+        --muted: #A8A196;
+        --accent: #C86D51;
+        --accent-soft: rgba(200, 109, 81, 0.2);
+        --accent-border: rgba(200, 109, 81, 0.45);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Plus Jakarta Sans", "Segoe UI", Roboto, sans-serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      background: var(--bg);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .topbar {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .brand {
+      font-family: Georgia, "Playfair Display", serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .nav-links {
+      display: flex;
+      gap: 10px;
+      font-size: 0.85rem;
+    }
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--recessed);
+    }
+    .nav-links a[aria-current="page"] {
+      color: var(--accent);
+      border-color: var(--accent-border);
+      background: var(--accent-soft);
+      font-weight: 600;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    .eyebrow {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      border: 1px solid var(--accent-border);
+      border-radius: 999px;
+      padding: 4px 12px;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-family: Georgia, "Playfair Display", serif;
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 0 0 10px;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 0.98rem;
+      margin: 0 0 28px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px 24px;
+      margin-bottom: 16px;
+    }
+    .card h2 {
+      font-family: Georgia, "Playfair Display", serif;
+      font-size: 1.18rem;
+      margin: 0 0 8px;
+      color: var(--ink);
+    }
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+    a { color: var(--accent); }
+    footer {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 24px 20px 48px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.82rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <a class="brand" href="./index.html">TripChoice</a>
+      <nav class="nav-links" aria-label="Legal navigation">
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html" aria-current="page">Terms of Service</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <span class="eyebrow">Effective October 30, 2026</span>
+    <h1>Terms of Service</h1>
+    <p class="lead">
+      Welcome to TripChoice. By accessing or using the TripChoice mobile application or web resources, you agree to the terms below.
+    </p>
+
+    <section class="card">
+      <h2>1. Service Overview</h2>
+      <p>
+        TripChoice provides editorial and AI-grounded city itineraries, transit leg guidance, offline route caching, and deep-link handoffs to regional mobility and dining services.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>2. Transit, Venue &amp; AI Itinerary Disclaimer</h2>
+      <p>
+        Transit schedules, fares, walking times, venue opening hours, and AI-generated recommendations are provided for planning convenience and may change without notice due to service advisories, weather, or local events. Always verify live transit signage, local regulations, and personal safety conditions when traveling.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>3. Accounts &amp; Shared Trip Codes</h2>
+      <p>
+        You are responsible for maintaining the security of your sign-in credentials. When you generate a shared trip link or code, anyone with that link can view and import a copy of that itinerary.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>4. Third-Party Mobility &amp; Dining Providers</h2>
+      <p>
+        TripChoice links to independent services including Google Maps, Uber, Lyft, GO Taxi, OpenTable, TheFork, and Google Reserve. Reservations, rides, and payments completed through third-party apps or websites are governed solely by your agreement with those providers.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>5. Acceptable Use &amp; Intellectual Property</h2>
+      <p>
+        You agree not to misuse the service, scrape APIs, bypass rate limits, or redistribute TripChoice editorial content commercially without prior written consent. TripChoice software, branding, and curated editorial routes remain the property of TripChoice Inc. and its licensors.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>6. Limitation of Liability &amp; Contact</h2>
+      <p>
+        TripChoice is provided &ldquo;as is&rdquo; without warranties of any kind to the fullest extent permitted by applicable law. For questions regarding these Terms, contact <a href="mailto:support@tripchoice.app">support@tripchoice.app</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 TripChoice Inc. All rights reserved.
+  </footer>
+</body>
+</html>
